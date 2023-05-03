@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body
+    style="color: white;font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500; background-color: black;">
+    <!-- Write Write a JavaScript program to add two number of addition, subtraction, multiplication, division 
+        (using simple function) -->
+   
+    <script type="text/javascript">
+       
+        function number(n) {
+
+            // document.write("addition, subtraction, multiplication, division");
+            var a = parseInt(prompt("Enter the any value of A:  "));
+            var b = parseInt(prompt("Enter the any value of B:  "));
+            
+            document.write("A =" + a + "<br>");
+            document.write("B =" + b + "<br>");
+            var sum = a+b; 
+            var sub = a-b;
+            var mul = a*b;
+            var div = a/b;
+
+            document.write("Addition : "+ sum +"<br>");
+            document.write("subtraction : "+ sub +"<br>");
+            document.write("multiplication : "+ mul +"<br>");
+            document.write("division : "+ div +"<br>");
+            
+        }
+       number();
+    </script>
+</body>
+
+</html>

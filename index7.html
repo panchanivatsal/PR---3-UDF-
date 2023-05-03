@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body
+    style="color: white;font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500; background-color: black;">
+    <!-- .Write a JavaScript program to find which number is greter in 3 numbers using nested if else. -->
+    <!-- (using all function) -->
+    <!-- <script type="text/javascript">
+        // simple
+       function greter(){
+        var a = parseInt(prompt("Enter the A value:"));
+        var b = parseInt(prompt("Enter the B value:"));
+        var c = parseInt(prompt("Enter the C value:"));
+        if(a > b){
+            document.write("A is Big");
+        }else if(b > c){
+            document.write("B is Big");
+        }else{
+            document.write("C is Big");
+        }
+       }
+       greter(); 
+
+        
+    </script> -->
+    <!-- <script type="text/javascript">
+        //  no return with parameter+
+       function greter(a,b,c){
+        var a = parseInt(prompt("Enter the A value:"));
+        var b = parseInt(prompt("Enter the B value:"));
+        var c = parseInt(prompt("Enter the C value:"));
+        if(a > b){
+            document.write("A is Big");
+        }else if(b > c){
+            document.write("B is Big");
+        }else{
+            document.write("C is Big");
+        }
+       }
+       var a,b,c;
+       greter(); 
+
+        
+    </script> -->
+    <!-- <script type="text/javascript">
+        // return with  no parameter+
+        function Greatest() {
+            var a = parseInt(prompt("Enter the A value:"));
+            var b = parseInt(prompt("Enter the B value:"));
+            var c = parseInt(prompt("Enter the C value:"));
+            if (a > b && a > c) {
+                return 1;
+            } else if (b > a && b > c) {
+                return 2;
+            } else {
+                return 3;
+            }
+        }
+
+        var l = Greatest();
+        if (l == 1) {
+            document.write("A is Big");
+        } else if (l == 2) {
+            document.write("B is Big");
+        } else {
+            document.write("C is Big");
+        }
+
+    </script> -->
+    <script type="text/javascript">
+        // return with parameter+
+        function Greatest(a,b,c) {
+            var a = parseInt(prompt("Enter the A value:"));
+            var b = parseInt(prompt("Enter the B value:"));
+            var c = parseInt(prompt("Enter the C value:"));
+            if (a > b && a > c) {
+                return 1;
+            } else if (b > a && b > c) {
+                return 2;
+            } else {
+                return 3;
+            }
+        }
+       
+        var l = Greatest(),a,b,c;
+        if (l == 1) {
+            document.write("A is Big");
+        } else if (l == 2) {
+            document.write("B is Big");
+        } else {
+            document.write("C is Big");
+        }
+
+    </script>
+</body>
+
+</html>

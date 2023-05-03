@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body
+    style="color: white;font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500; background-color: black;">
+    <!-- Write a JavaScript program to decide that you eligible for voting? -->
+    <!-- using all function -->
+    <!-- 1 simple function -->
+    <!-- <script type="text/javascript">
+        function simple(){
+
+        var n = parseInt(prompt("Enter the any value"));
+
+        if (n >= 18) {
+            console.log("Eligible for voting ");
+            document.write("Eligible for voting ");
+        }
+        else {
+            console.log(" Not Eligible for voting");
+            document.write("Not Eligible for voting ");
+        }
+    }
+        simple();
+    </script> -->
+    <!--  no return with pearmeter -->
+    <!-- <script type="text/javascript">
+        var n;
+        function parameter(n){
+
+        var n = parseInt(prompt("Enter the any value"));
+
+        if (n >= 18) {
+            console.log("Eligible for voting ");
+            document.write("Eligible for voting ");
+        }
+        else {
+            console.log(" Not Eligible for voting");
+            document.write("Not Eligible for voting ");
+        }
+    }
+        parameter(n);
+    </script> -->
+    <!--  return with perameter -->
+    <script type="text/javascript">
+        var n;
+        function eligible(n) {
+
+            var n = parseInt(prompt("Enter the your year Number"));
+            var l;
+            if (n >= 18) {
+
+                l = 1;
+            }
+            else {
+                l = 0;
+               
+            }
+            return l;
+
+        }
+
+        eligible(n);
+        if (l == 1) {
+            document.write("Eligible for voting ");
+        } else {
+            document.write("Not Eligible for voting ");
+        }
+
+
+    </script>
+</body>
+
+</html>
